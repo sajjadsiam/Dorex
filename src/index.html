@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./output.css" rel="stylesheet" />
+    <title>Dorex</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="relative min-h-screen flex flex-col">
+      <div
+        class="absolute inset-0 flex justify-center items-end overflow-hidden z-[-1]"
+      >
+        <div class="w-full h-full">
+          <img
+            src="img/hero-bg.png"
+            alt=""
+            class="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- header section starts -->
+      <header class="py-4">
+        <div class="px-6 mt-5">
+          <nav class="flex items-center justify-between">
+            <a href="index.html" class="text-white text-2xl font-bold">Dorex</a>
+
+            <div class="flex ml-auto space-x-6">
+              <ul class="flex space-x-6">
+                <li>
+                  <a href="#" class="uppercase transition text-blue-400"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white uppercase transition hover:text-blue-400"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white uppercase transition hover:text-blue-400"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white uppercase transition hover:text-blue-400"
+                    >Why Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white uppercase transition hover:text-blue-400"
+                    >Team</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center space-x-1 text-white uppercase transition hover:text-blue-400"
+                    ><i class="fa fa-user"></i><span>Login</span></a
+                  >
+                </li>
+              </ul>
+
+              <form class="ml-4">
+                <button
+                  class="w-9 h-9 p-0 inline-flex border-none text-white transition hover:text-blue-400"
+                >
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+
+      <!-- slider section -->
+      <section class="flex-1 flex items-center py-12 relative">
+        <div class="w-full">
+          <div
+            class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center"
+          >
+            <div class="text-white">
+              <h1 class="text-4xl font-bold uppercase">
+                Crypto <br />
+                Currency
+              </h1>
+              <p class="mt-4">
+                Praesent tempor elit eget congue fringilla. Duis faucibus nec
+                nisi in pellentesque. Morbi condimentum id felis?
+              </p>
+              <div class="mt-6">
+                <a
+                  href=""
+                  class="bg-blue-400 text-white py-2 px-4 hover:bg-blue-600"
+                  >Read More</a
+                >
+              </div>
+            </div>
+
+            <div class="flex justify-center">
+              <img
+                src="img/slider-img.png"
+                alt=""
+                class="w-full max-w-lg animate-up-down"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end slider section -->
+    </div>
+  </body>
+</html>
